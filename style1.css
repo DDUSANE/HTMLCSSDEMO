@@ -1,0 +1,24 @@
+
+sup{
+color:yellow;
+} 
+.nav-item a {
+  flex: 1;
+  color: #fff;
+  
+  padding:0.9rem;
+  text-align: center;
+  text-decoration: none;
+/*   transition: all 0.1s ease-out; */
+}
+.nav-item a:hover,
+.nav-item a:focus {
+  background-color: #FFCC00;
+  color: #333;
+  transform-origin: bottom left;
+border-radius: 22% 0% 22% 0% / 45% 0% 45% 0%;
+}
+span{
+  
+  margin-right:12%;
+}
